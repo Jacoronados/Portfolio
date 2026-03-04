@@ -1,7 +1,6 @@
 ---
 title: "a02"
 author: "Jorge Coronado"
-editor: visual
 ---
 
 # Introduction
