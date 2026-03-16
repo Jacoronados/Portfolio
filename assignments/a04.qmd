@@ -160,4 +160,4 @@ The final data frame shows the total number or birds observed by park and survey
 
 The results are informative because they allow us to compare bird observations across different parks and months.
 
-The process could be improved by organizing the steps more clearly.
+The process could be improved by organizing the steps more clearly...
