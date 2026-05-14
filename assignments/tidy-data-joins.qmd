@@ -34,12 +34,15 @@ head(bird_observations)
 ```{r}
 glimpse(bird_observations)
 ```
+
 ```{r}
 summary(bird_observations)
 ```
+
 ```{r}
 names(bird_observations)
 ```
+
 ```{r}
 #unique(bird_observations) # I made this a comment to avoid render a full table
 ```
@@ -105,6 +108,7 @@ head(bird_obs_subset)
 ```{r}
 unique(bird_obs_subset$observer)
 ```
+
 ```{r}
 bird_obs_subset <- bird_obs_subset %>% 
   mutate(observer = if_else(condition = observer == "Josh Burns",
@@ -120,6 +124,11 @@ unique(bird_obs_subset$observer)
 
 ```{r}
 bird_obs_subset <- bird_obs_subset %>% 
-  lubridate::month(label = "survey_month")
-```
+  mutate(
+    observer = if_else(observer == "Josh Burns", "J. Burns", observer),
+    survey_date = lubridate::ymd_hms(survey_date),
+    survey_month = lubridate::month(survey_date, label = TRUE)
+  )
 
+head(bird_obs_subset)
+```
