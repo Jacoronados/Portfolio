@@ -12,7 +12,7 @@ listing:
 - Tidy Data
 - Cleaning and Wrangling Data
 - Data Visualization
-- [Tidy Data Joins](tidy-data-joins.html)
-- [Introduction to Spatial Data](intro-to-spatial-data.html)
+- [Tidy Data Joins](assignments/tidy-data-joins.html)
+- [Introduction to Spatial Data](assignments/intro-to-spatial-data.html)
 
 
