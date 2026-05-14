@@ -8,10 +8,20 @@ listing:
 
 ## Course Lessons
 
+- Introduction to R and RStudio
 - Introduction to Literate Analysis Using Quarto
+- Introduction to Git and Github
+- Publishing to the Web Using GitHub Pages
 - Tidy Data
 - Cleaning and Wrangling Data
 - Data Visualization
+- Data Management
+- Spatial Data Analysis
+- Functions in R
+- Reproducibility and Provenance
+
+## Assignment a09
+
 - [Tidy Data Joins](assignments/tidy-data-joins.html)
 - [Introduction to Spatial Data](assignments/intro-to-spatial-data.html)
 
